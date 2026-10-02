@@ -1,0 +1,64 @@
+{
+  "name": "@codexverified/social-dl",
+  "version": "1.3.5",
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "Direct CDN social downloader for YouTube, TikTok, Facebook, Instagram, Twitter, Pinterest, and CapCut \u2014 no API keys required.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "social-dl": "bin/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./facebook": "./src/platforms/facebook.js",
+    "./youtube": "./src/platforms/youtube.js",
+    "./ytmp3": "./src/platforms/ytmp3.js",
+    "./instagram": "./src/platforms/instagram.js",
+    "./tiktok": "./src/platforms/tiktok.js",
+    "./twitter": "./src/platforms/twitter.js",
+    "./pinterest": "./src/platforms/pinterest.js",
+    "./capcut": "./src/platforms/capcut.js",
+    "./stream": "./src/stream.js"
+  },
+  "scripts": {
+    "test": "node tests/test.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "social media downloader",
+    "youtube downloader",
+    "tiktok downloader",
+    "facebook downloader",
+    "instagram downloader",
+    "twitter downloader",
+    "pinterest downloader",
+    "capcut downloader",
+    "youtube mp3",
+    "youtube to mp3",
+    "reels downloader",
+    "no api downloader",
+    "direct cdn",
+    "codexverified",
+    "social-dl",
+    "ytmp4",
+    "ytmp3"
+  ],
+  "author": "@codexverified",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codexverified/social-dl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codexverified/social-dl/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/@codexverified/social-dl",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "licenses/",
+    "README.md"
+  ]
+}
